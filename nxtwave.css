@@ -1,0 +1,410 @@
+@import "nxtwave2.css";
+@import "nxtwave3.css";
+@import "nxtwave4.css";
+@import "nxtwave5.css";
+body{
+    margin: 0;
+    padding: 0;
+} 
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.navbar img{
+    cursor: pointer;
+}
+.navul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.navul> li,a{
+   padding: 1rem; 
+   cursor: pointer;
+   text-decoration: none;
+   color: #000;
+   font-family: 'Inter 500',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 540;
+}
+.navul> li{
+    text-align: center;
+    width:5.3rem;
+}
+#navulhireid{
+    width: 6rem;
+}
+.navul> li:hover{
+    color: #1565d8;
+ }
+.navul a{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.navul a img{
+    padding-left: 0.6rem;
+}
+.navimg
+{
+    cursor: pointer;
+    display: none;
+}
+/* navbar responsive */
+@media screen and (max-width: 480px) {
+    .navbar{
+        justify-content: space-between;
+        
+    }
+    .navimg{
+        display: inline;
+        height: 30px;
+        width: 30px;
+    }
+    .navul> li{
+        display: none;
+     }
+     .navul a{
+        display: none;
+     }
+  }
+/* announcement */
+.announcement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4f46e5;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 48px;
+}
+.ann{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.announcement p{
+    font-family: sans-serif;
+    padding: 0.2rem;
+}
+.annou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.annou a{
+    font-family: sans-serif;
+    padding: 0.4rem;
+    cursor: pointer;
+    color:#fff;
+}
+/* announcement responsive */
+@media screen and (max-width: 480px) {
+    .announcement{
+        display: inline-block;
+        padding: 0;
+    }
+    .ann p{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .annou a{
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    .annou{
+        justify-content: flex-start;
+        padding: 0rem 0rem 0.3rem 1.7rem;
+    }
+  }
+  /* homepage */
+  .homepage{
+    display: flex;
+    justify-content: center;
+    background-color: #f8fafc;
+    padding-bottom: 3rem;
+  }
+  .homefirst{ 
+    /* padding-left: 17rem; */
+    width: 25%;
+  }
+  .homefifirst h1{
+    font-family: sofia-pro,sans-serif;
+    color: #183b56;
+    font-size: 48px;
+    line-height: 64px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-top: 0;
+  }
+  .homefisecond h6{
+    font-family: 'Inter 600',sans-serif;
+    color: #475569;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .homefisecondh6img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  .gserggh{
+    align-self: center;
+  }
+  #homefisecondh6img2{
+    width: 253px;
+    height: 17px;
+    align-self: center;
+  }
+  .homefisecond div{
+    display: flex;
+  }
+  .homefisecond div img{
+    height: 8rem;
+    width: 12rem;
+    margin: 0;
+    padding: 0.2rem;
+  }
+  .homesecond{
+    width: 43%;
+    position: relative;
+  }
+  .home1{
+    position: absolute;
+    left:0;
+    bottom:22px;
+  }
+  .home2{
+    position: absolute;
+    top:0;
+    right:0;
+  }
+  .home3{
+    position: absolute;
+    z-index: 1.01;
+    top:1rem;
+  }
+  .home4{
+    position: absolute;
+    bottom:3rem;
+    right:0;
+  }
+  .homecard{
+    display: flex;
+    background-color: #f8fafc;
+  }
+  .homecard1{
+    /* border: 2px solid rgb(65, 63, 63); */
+    border :1px solid rgba(197, 195, 190, 0.877);
+    border-radius: 12px;
+    margin-left: 2rem;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    z-index: 2;
+    width:21rem;
+  }
+  .homesubcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0rem 2rem;
+    height: 120px;
+  }
+  .homeimg1{
+    height:2.5rem;
+  }
+  .homeimg2{
+    object-fit: cover;
+    overflow:hidden;
+    height: 190px;
+    z-index:1.1;
+  }
+  .homecard1 p{
+    margin-top: 0;
+    z-index:3;
+}
+.homesubcard2{
+    box-shadow: 0 -12px 5px white;
+    background-color: #fff;
+    z-index:1.2;
+    padding: 0 2rem 1rem 2rem;
+}
+.homesubp1{
+    width:70%;
+    z-index: 1.3;
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: #e0e7ff;
+    color: #3730a3;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.homesubp2{
+    padding: 2px 8px;
+    width:47%;
+    border-radius: 8px;
+    background-color: #cffafe;
+    color: #155e75;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.homesubcard3 h2{
+    padding: 0 2rem 0.8rem 2rem;
+    height: 96px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-family: 'Inter 600',sans-serif;
+    color: #183b56;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+.housesubcard4{
+    padding: 0 2rem 0rem 2rem;
+    display: flex;
+}
+.housesubcard41
+{
+    width: 40%;
+    font-family: 'Inter 500',sans-serif;
+    color: #183b56;
+    line-height: 24px;
+    font-weight: 550;
+}
+.housesubcard42
+{
+    width: 50%;
+    font-family: 'Inter 500',sans-serif;
+    color: #183b56;
+    line-height: 24px;
+    font-weight: 500;
+}
+.housesubcard5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#housebtn1{
+    border-radius: 12px;
+    background-color: #1565d8;
+    color: #fff;
+    border: none;
+    padding: 1rem 5rem;
+    margin-bottom: 1rem;
+    font-family: Arial,sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#housebtn2{
+    cursor: pointer;
+    padding: 1rem 5rem;
+    margin-bottom: 1rem;
+    font-family: Arial,sans-serif;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: none;
+    color: #1565d8;
+}
+.homeimg12{
+    height:2em;
+}
+.homesubp22{
+    padding: 2px 8px;
+    border-radius: 8px;
+    width:64%;
+    background-color: #fef3c7;
+    color: #92400e;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.housesubcard412{
+    width: 48%;
+    font-family: 'Inter 500',sans-serif;
+    color: #183b56;
+    font-size: 0.9rem;
+    line-height: 25px;
+    font-weight: 550;
+}
+.homesubcard22{
+    display: flex;
+}
+.homesubp121{
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: #d1fae5;
+    color: #065f46;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+.homesubp122{
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: #e0e7ff;
+    color: #3730a3;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+/* responsive home design */
+@media screen and (max-width: 480px) {
+    .homefirst{
+        display: none;
+    }
+    .homesecond{
+        width: 100%;
+    }
+    .homecard{
+        flex-direction: column;
+    }
+    .homecard1{
+        margin-bottom: 4rem;
+    }
+  }
+/* alumuni page */
+.alumuni{
+    padding: 2rem 1rem;
+}
+.alumuni h4,p{
+text-align: center;
+}
+.alumunimg1{
+    width: 70vw;
+    margin: 0 17rem;
+    display: flex;
+    justify-content: center;
+}
+.alumunimg2{
+ display: none;
+}
+/* responsive alumuni page */
+@media screen and (max-width: 480px) {
+    .alumunimg1{
+        display: none;
+    }
+    .alumunimg2{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    }
+}

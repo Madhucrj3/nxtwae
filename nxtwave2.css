@@ -1,0 +1,319 @@
+/* Recognised By */
+.recognised{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #f9fbfe
+}
+.recognisedimg{
+    width: 75%;
+}
+.recognisedmobimg{
+    display: none;
+}
+/* Recognised by responsive */
+@media screen and (max-width: 480px) {
+    .recognisedimg{
+        display: none;
+    }
+    .recognisedmobimg{
+        display: inline;
+        width: 85%;
+    }
+}
+/* Partner */
+.partner{
+    display: flex;
+    align-items: center;
+    background-color: #212635;
+    height:29rem;
+    position: relative;
+}
+.partnerback{
+    position: absolute;
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+}
+.partnerdiv{
+    padding-left: 17rem;
+   color: #fff; 
+   text-align: center;
+}
+.partnerdiv h1{
+font-size: 3rem;
+font-family: sofia-pro,sans-serif;
+line-height: 3rem;
+}
+.partnermobback{
+    display: none;
+}
+/* partner Responsive */
+@media screen and (max-width: 480px) {
+   .partnerback{
+    display: none;
+   }
+   .partner{
+    height:32rem;
+    align-items: flex-start;
+   }
+   .partnerdiv{
+    padding-left: 1rem;
+   }
+   .partnermobback{
+    display: inline;
+    position: absolute;
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+   }
+   .partnerdiv h1{
+    font-size: 2rem;
+   }
+}
+/* company */
+.company{
+   padding: 5rem;
+}
+.company h1{
+    text-align: center;
+    margin-left: auto;
+    font-family: sofia-pro,sans-serif;
+    color: #1e293b;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+}
+.companyimg{
+    width:100%
+}
+.companymobimg{
+    display: none;
+}
+.companydiv{
+    display: flex;
+    justify-content: center;
+}
+#companybtn{
+    border: 2px solid #1565d8;
+    border-radius: 12px;
+    background-color: #fff;
+    height: 3rem;
+    color: #1565d8;
+    width:15rem
+}
+#companybtn1{
+    margin-right: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #1565d8;
+    height: 3rem;
+    color: #fff;
+    width:15rem;
+    margin-bottom: 1rem;
+}
+/* company Responsive */
+@media screen and (max-width: 480px) {
+    .company{
+        padding: 1rem;
+    }
+    .companyimg{
+        display: none;
+    }
+    .companymobimg{
+        display: inline;
+        width:100%
+    }
+    .companydiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .company h1{
+      font-size: 24px;
+  }
+ }
+ /* Award section */
+ .award{
+    background-image: url(https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/award-section/awards-section-bg-pattern.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #212635;
+    /* background-size: cover; */
+    padding: 5rem;
+    justify-content: center;
+
+ }
+ .awardfirst{
+    width:25%;
+    padding-right: 8rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+ }
+ .awardfirst img{
+    width: 300px;
+    height: 150px;
+ }
+ .awardfirsthead img{
+    height: 14.3rem;
+    width: 100px;
+ }
+ .awardfirsthead{
+    /* margin-left: 5rem; */
+    display: flex;
+    margin-left: 1rem;
+ }
+ .awardsecond img{
+    height: 25rem;
+    width: 100%;
+ }
+ .awardfirstheadpa p{
+    text-align: left;
+    color: #e2e8f0;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 500;
+ }
+ .awardfirstheadpa h1{
+    color: #f8fafc;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 800;
+ }
+ /* Award Resposive */
+ @media screen and (max-width: 480px) {
+    .award{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .awardfirst{
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .awardsecond img{
+        height: 100%;
+        width: 100%;
+     }
+ }
+ /* nxt team */
+ .nxtteam{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+ .nxtteamcont{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    padding: 2rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    background-color: #f9fbfe;
+ }
+ .nxtteam h1{
+   align-self: flex-start;
+   padding-left: 20rem;
+    font-family: sofia-pro,sans-serif;
+    color: #183b56;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+ }
+ .nxtteamcontfirst1{
+    margin: 1rem;
+ }
+ .nxtteamcontfirst1 h4{
+   font-size: 1.5rem;
+    font-weight: 500;
+ }
+ .nxtteamcontfirst111{
+    margin: 1rem;
+    width: 145px;
+    /* border: 1px solid rgb(243, 238, 238); */
+    border-radius: 15px;
+    border: 1px solid #cbd5e1;
+    /* border-radius: 8px; */
+ }
+ .nxtteamcontfirst111 p{
+    color: #535353;
+    font-size: 12px;
+    line-height: 15.62px;
+ }
+ .nxtteamcontfirst111 h6{
+    font-size: 1rem;
+ }
+ .nxtteamcontfirst111 img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 145px;
+ }
+ .nxtteamcontfirst11{
+    display: flex;
+ }
+ .nxtteamcontsecond{
+   border: 1px solid #cbd5e1;
+   border-radius: 15px;
+ }
+ #nxtteamimg2{
+    width: 100px;
+ }
+ .nxtteamcontsecond2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(243, 238, 238);
+    background-color: #fff;
+    border-radius: 15px;
+ }
+ .nxtteamcontsecond2 p{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+ }
+ #nxtteamimg1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 18rem;
+    width: 100%;
+ }
+ .companybtndiv22{
+   align-self: flex-start;
+   padding-left:20rem;
+   padding-top: 1rem;
+ }
+ /* nxtteam Responsive */
+ @media screen and (max-width: 480px) {
+   .nxtteam h1{
+      overflow: hidden;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 32px;
+      font-size: 20px;
+      line-height: 34px;
+      padding: 0.5rem 0.5rem 0 1.1rem;
+   }
+   .nxtteam{
+      align-items: flex-start;
+   }
+   .nxtteamcontsecond{
+      display: none;
+   }
+   .nxtteamcont{
+      display: inline-block;
+      padding: 0;
+   }
+   .nxtteamcontfirst1 h4{
+      font-size: 1.2rem;
+    }
+    .companybtndiv22{
+      padding-left: 1rem;
+    }
+}

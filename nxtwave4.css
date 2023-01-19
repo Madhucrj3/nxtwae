@@ -1,0 +1,218 @@
+.mentorcommunitycontd{
+    /* max-width: 1200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menorcomm p{
+    text-align: left;
+}
+.menotimg img:first-child{
+    width: 65vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.menorcomm h1{
+    margin-top: 3rem;
+    font-family: sofia-pro,sans-serif;
+    color: #183b56;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.menorcomm p{
+    margin-top: 0.2rem;
+    font-size: 17px;
+    font-family: 'Inter 400',sans-serif;
+    color: rgb(166, 167, 172);
+}
+.mentormnay p{
+    font-weight: bold;
+}
+.mentormnay{
+    display: flex;
+    justify-content: flex-end;
+}
+.menotimg img:last-child{
+    display: none;
+}
+/* Mentor responsive */
+@media screen and (max-width: 480px) {
+    .menorcomm h1{
+        margin-top: 2rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .menorcomm p{
+        color: #183b56;
+    }
+    .mentormnay p{
+        color: rgb(166, 167, 172);
+        margin-bottom: 3rem;
+    }
+    .menorcomm{
+        padding: 1rem;
+    }
+    .menotimg img:last-child{
+        margin: 2rem 0;
+        width: 90vw;
+        display: inline;
+    }
+    .menotimg img:first-child{
+        display: none;
+    }
+    #mentorcommbtn{
+        display: flex;
+        justify-content: center;
+    }
+}
+/* Partner */
+.partnercontimg img{
+    height: 80px;
+    width: 306px;
+}
+.partnerconntd h3{
+    text-align: center;
+    font-family: sofia-pro,sans-serif;
+    margin-bottom: 0;
+    color: #183b56;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.partnerconntd h1{
+    margin-top: 0.5rem;
+    color: #183b56;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -.5px
+}
+.partnercontimg{
+    display: flex;
+    justify-content: center;
+}
+.partnercontimg img{
+    padding: 2rem;
+}
+.partnerinfo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.partnerinfo h2{
+    margin-bottom: 4px;
+    color: #183b56;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.partnerinfo span{
+    color: #5a7184;
+    font-size: 16px;
+    line-height: 24px;
+}
+.partnerinfo{
+    padding: 1rem;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.partnerinfocontd1{
+    display: flex;
+    justify-content: center;
+}
+.partnerinfolast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.firstline{
+    background-color: rgb(138, 135, 135);
+    height: 7px;
+    width: 18px;
+    border-radius: 4px;
+    margin: 0 1rem;
+}
+.partnerinfolast img{
+    height: 32px;
+    margin: 0 1rem;
+    width: 32px;
+}
+.firstdot{
+    margin: 0 1rem;
+    height: 7px;
+    width: 7px;
+    background-color: rgb(201, 192, 192);
+    border-radius: 50%;
+}
+.parbtncond{
+    display: flex;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.partnerbtn{
+    max-width: 1200px;
+}
+.hidenmobile{
+    display: none;
+}
+.dothide{
+    display: none;
+}
+/* partner responsive */
+@media screen and (max-width: 480px) {
+    .partnerconntd h3{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        padding-left: 1rem;
+    }
+    .partnerconntd h1{
+        padding-left: 1rem;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: left;
+    }
+    .partnercontimg img{
+        width: 144px;
+        height: 38px;
+        padding: 1rem;
+        justify-content: flex-start;
+    }
+    .partnerinfo{
+        padding: 1rem;
+    }
+    .partnerinfo img{
+        height: 64px;
+        width: 64px;
+    }
+    .partnerinfo h2{
+        font-size: 14px;
+         line-height: 24px;
+    }
+    .partnerinfo span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #parnerhide{
+        display: none;
+    }
+    .hidenmobile{
+        display: flex;
+    }
+    .dothide{
+        display: block;
+    }
+    
+}

@@ -1,0 +1,229 @@
+.mediacontd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.media h1{
+    font-family: sofia-pro,sans-serif;
+    color: #183b56;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    letter-spacing: -.5px;
+    margin-bottom: 48px;
+}
+.mediacardcontd{
+    display: flex;
+}
+.mediacard{
+    margin-right: 24px;
+    width: 310px;
+    height: 354px;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 20px 24px;
+}
+.mediacardfirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter 500',sans-serif;
+    color: #5a7184;
+    line-height: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.mediacardfirst img{
+    height: 40px;
+}
+.mediacardsec img{
+    width: 100%;
+}
+.mediacardsec p{
+    text-align: left;
+    font-family: 'Inter 500',sans-serif;
+    color: #183b56;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 24px 0 32px 0;
+}
+.mediathird a{
+    padding: 0;
+    color: #1565d8;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.mediathird{
+    display: flex;
+    justify-content: space-between;
+}
+/* Media Responsive */
+@media screen and (max-width: 480px){
+    .media h1{
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .mediahide{
+        display: none;
+    }
+    .mediabtncard{
+        display: flex;
+        justify-content: center;
+    }
+    .mediacard{
+        padding: 16px;
+        width: 302px;
+        height: 355px;
+    }
+}
+/* Footer Section */
+footer{
+    background-color: #0d2436;
+    display: flex;
+    justify-content: center;
+}
+.footersection{
+    margin: 5rem 0;
+    max-width: 1200px;
+}
+.footerfirst{
+    display: flex;
+    justify-content: space-between;
+}
+.footerfirst h3{
+    font-family: 'Inter 700',sans-serif;
+    color: #5a7184;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.footerfirst1img img{
+    margin-bottom: 30px;
+}
+.moblefooter{
+    font-family: 'Inter 400',sans-serif;
+    color: #959ead;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.footerfirst1div1{
+    display: flex;
+    margin-top: 8px;
+}
+.footerfirst1div1 img{
+    align-self: flex-start;
+    margin-right: 1rem;
+}
+#footerfirst2a{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+#footerfirst2a a{
+    padding:16px 16px 0 0;
+}
+.paymentcontd{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.pamentcontd1 img{
+    padding: 0 1rem 1rem 0;
+}
+.footerfirst2div{
+    display: flex;
+}
+.locationfoot img{
+    height: 24px;
+    width: 24px;
+}
+.locationfoot{
+    display: flex;
+}
+#locationiddiv{
+    width: 232px;
+    height: 120px;
+}
+.footerborder{
+    height: 2px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 2px;
+    background-color: #1e293b;
+}
+.footersecond{
+    display: flex;
+    justify-content: space-between;
+}
+.footersecondsocial a{
+    padding: 1rem 1rem 1rem 0;
+}
+.footerpolicy a{
+    margin-right: 20px;
+    opacity: .5;
+    padding: 0;
+    transition: opacity .2s;
+    font-family: 'Inter 500',sans-serif;
+    color: #5a7184;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.footerpolicy a:hover{
+    opacity: 1;
+    color:#fff;
+}
+.footerpolicy a{
+    margin-bottom: 1rem;
+}
+/* footer responsive */
+@media screen and (max-width: 480px){
+    .footerfirst{
+        display: block;
+    }
+    .footersecond{
+        display: block;
+    }
+    .footersection{
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+    .footersecondsocial{
+        margin-bottom: 1rem;
+    }
+}
+/* Whatshapp icon */
+#whatshappiconfix{
+    height: 48px;
+    width: 48px;
+    margin-left: 10px;
+}
+.whatshappicon{
+    background-image: linear-gradient(0deg,#23b33a,#57d163 100%,#fff);
+    box-shadow: 8px 8px 16px 0 rgb(0 0 0 / 8%);
+    display: inline-block;
+    border-radius: 48px;
+    z-index: 8;
+    position: fixed;
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: 5%;
+}
+.whatshappicon a{
+    font-family: 'Inter 400',sans-serif;
+    color: #fff;
+    line-height: 16.94px;
+    font-weight: 400;
+}
+.whatshappicon a{ 
+    padding: 8px 16px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
